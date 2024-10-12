@@ -103,12 +103,12 @@
         };
         "RadxaCM3IO" = {
           uBoot = (uBoot system).uBootRadxaCM3IO;
-          kernel = (kernel system).linux_6_6_rockchip;
+          kernel = (kernel system).linux_6_11_rockchip;
           extraModules = [ ];
         };
         "RadxaRock4" = {
           uBoot = (uBoot system).uBootRadxaRock4;
-          kernel = (kernel system).linux_6_6_rockchip;
+          kernel = (kernel system).linux_6_11_rockchip;
           extraModules = [ ];
         };
       };
