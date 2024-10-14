@@ -152,6 +152,7 @@
       legacyPackages = {
         kernel_linux_6_6_rockchip = (kernel system).linux_6_6_rockchip;
         kernel_linux_6_9_rockchip = (kernel system).linux_6_9_rockchip;
+        kernel_linux_6_11_rockchip = (kernel system).linux_6_11_rockchip;
         kernel_linux_6_9_pinetab = (kernel system).linux_6_9_pinetab;
       };
       packages = (images system) // {

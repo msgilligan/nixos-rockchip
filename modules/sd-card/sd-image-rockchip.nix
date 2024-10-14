@@ -9,7 +9,7 @@
   config.boot = {
     consoleLogLevel = lib.mkDefault 7;
     kernelPackages = lib.mkDefault
-      (pkgs.callPackage ../../pkgs/linux-rockchip.nix { }).linux_6_6;
+      (pkgs.callPackage ../../pkgs/linux-rockchip.nix { }).linux_6_11;
 
     loader = {
       grub.enable = false;
