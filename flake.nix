@@ -63,8 +63,8 @@
         };
         "SoQuartzCM4" = {
           uBoot = (uBoot system).uBootSoQuartzCM4IO;
-          kernel = (kernel system).linux_6_6_rockchip;
-          extraModules = [ ];
+          kernel = (kernel system).linux_6_12_rockchip;
+          extraModules = [ noZFS ];
         };
         "SoQuartzBlade" = {
           uBoot = (uBoot system).uBootSoQuartzBlade;
