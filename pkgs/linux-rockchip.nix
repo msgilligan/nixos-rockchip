@@ -71,5 +71,9 @@ in with pkgs.linuxKernel; {
     }];
     structuredExtraConfig = kernelConfig // pinetabKernelConfig;
   });
+
+  linux_6_11 = pkgs.linuxPackages_6_11;
+  linux_6_11_rockchip = packagesFor
+    (kernels.linux_6_11.override { structuredExtraConfig = kernelConfig; });
 }
 
